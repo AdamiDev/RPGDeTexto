@@ -1,7 +1,10 @@
 package rpgdetexto.main;
 
-public class MenuDoJogo {
+import java.util.Scanner;
 
+public class MenuDoJogo {
+	static Scanner scanner = new Scanner(System.in);
+	
 	public static void iniciar() {
 		int menuJogo;
 
@@ -52,7 +55,7 @@ public class MenuDoJogo {
 						+ " \\___/ | .__/  \\___| \\___/  \\___||___/(_)\r\n"
 						+ "       | |\r\n"
 						+ "       |_|\n");
-				System.out.println("Não há opções disponíveis.");
+				System.out.println("Não há opções disponíveis");
 				ComandosLogico.printGrafico(100);
 				ComandosLogico.pararJogo();
 				break;

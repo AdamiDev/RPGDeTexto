@@ -10,14 +10,14 @@ public class ComandosLogico {
 			System.out.println();
 	}
 
-	//Método para separar console com gráficos
+	//Método para separar console com borda
 	public static void printGrafico(int n){
 		for(int i = 0; i < n; i++)
 			System.out.print("=");
 		System.out.println("");
 	}
 
-	//Método para criar um titulo
+	//Método para criar um titulo com bordas
 	public static void printTitulo(String titulo){
 		printGrafico(100);
 		System.out.println(titulo);
